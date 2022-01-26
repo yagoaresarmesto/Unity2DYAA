@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 12130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\UnityEditor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity2DYAA/PracticaUnityYAA
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51446
+Successfully changed project path to: D:/Unity2DYAA/PracticaUnityYAA
+D:/Unity2DYAA/PracticaUnityYAA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 42.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity2DYAA/PracticaUnityYAA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'D:/UnityEditor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityEditor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001995 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1072ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.7 KB). Loaded Objects now: 2770.
+Memory consumption went from 104.7 MB to 104.7 MB.
+Total: 5.144900 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.162000 ms MarkObjects: 4.645500 ms  DeleteObjects: 0.083600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 978769.827242 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja
+  artifactKey: Guid(6a1e4765fc0b7ac49a2cd0110aafc2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja using Guid(6a1e4765fc0b7ac49a2cd0110aafc2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db167967c552e17c2ec49ea9272c3f67') in 0.009148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/Special1.png
+  artifactKey: Guid(c783e5058966bd94aa3f861eb22ba6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/Special1.png using Guid(c783e5058966bd94aa3f861eb22ba6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a3a99231946f93a1929aaddf797ff1') in 0.249829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/Attack.png
+  artifactKey: Guid(06da5fb39f6efb64885fdb123fff3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/Attack.png using Guid(06da5fb39f6efb64885fdb123fff3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52606f1ffbe4a834bb3c3323cbddb499') in 0.015909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/_Faceset.png
+  artifactKey: Guid(1f38d6d2e22916e42ad57e469db62459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/_Faceset.png using Guid(1f38d6d2e22916e42ad57e469db62459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c87965256181b2e61eff23f4689fdb') in 0.013158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Arriba.png
+  artifactKey: Guid(b77f47f3334daa34d8acfdc13bd3670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Arriba.png using Guid(b77f47f3334daa34d8acfdc13bd3670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf3a114f85c21d423338244986a5945') in 0.014475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Abajo.png
+  artifactKey: Guid(dc3564eb6a71e2f4e8f0a9a56d511595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Abajo.png using Guid(dc3564eb6a71e2f4e8f0a9a56d511595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccbde58ce7deeb47648a263a05f002a') in 0.016492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Personajes
+  artifactKey: Guid(d3e365aa1d426454582d1419f442fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes using Guid(d3e365aa1d426454582d1419f442fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76152437dadd7ca8b9f116f3ef667f0a') in 0.002598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/Item.png
+  artifactKey: Guid(6b61dec59a694bc42bdc2b849f7272f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/Item.png using Guid(6b61dec59a694bc42bdc2b849f7272f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26489fe1a21a20124fb98beadec4f46') in 0.014601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/Dead.png
+  artifactKey: Guid(159aede5382a4b14999168231fb6c5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/Dead.png using Guid(159aede5382a4b14999168231fb6c5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd3f0a9b26ebaae89d76d248bf1d664') in 0.015005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Derecha.png
+  artifactKey: Guid(12c2ad20b3a20b0488e97e00e2830e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Personajes/GreenNinja/GreenNinja_Caminar_Derecha.png using Guid(12c2ad20b3a20b0488e97e00e2830e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330a3eaf1bbab738041d9ab6bad833c') in 0.014403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.555606 seconds.
+  path: Assets/Sprites/UI/Borde.png
+  artifactKey: Guid(04538cd9f884bc44fb7167e8f36378d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Borde.png using Guid(04538cd9f884bc44fb7167e8f36378d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f193618159501cdf1f2b849f76daa3b3') in 0.022711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/UI/Inventario.png
+  artifactKey: Guid(a89a5238a05fe07419f9d9d15a63b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Inventario.png using Guid(a89a5238a05fe07419f9d9d15a63b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd32d0f069992bb276432178219cdc8') in 0.021584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI/EnemigoSeleccionadoMelee.png
+  artifactKey: Guid(260e357905f1f944da8ca1016231248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/EnemigoSeleccionadoMelee.png using Guid(260e357905f1f944da8ca1016231248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bad830ef042972a7d7d75ab087c3d0e') in 0.015857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/UI/LifeBarMiniUnder.png
+  artifactKey: Guid(aadc8f4fae41028498bedd10ad4aff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/LifeBarMiniUnder.png using Guid(aadc8f4fae41028498bedd10ad4aff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bbedda9a0651939e7d24c5b8bbbb72') in 0.016632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/UI/EnemigoSeleccionado.png
+  artifactKey: Guid(c136930740aab2e4aab79a1cf6a0c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/EnemigoSeleccionado.png using Guid(c136930740aab2e4aab79a1cf6a0c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b59c69ab671847757c4bd3c87344ca3') in 0.015418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI/PixelBlanco.png
+  artifactKey: Guid(d090f55250962574585e8fdda1d76f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/PixelBlanco.png using Guid(d090f55250962574585e8fdda1d76f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3ff91054dad6dc427ad3f2d6b02bc1') in 0.013847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/UI/Coin.gif
+  artifactKey: Guid(1ffea03672b09bc4dacaf09ac61d8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Coin.gif using Guid(1ffea03672b09bc4dacaf09ac61d8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6094e811758c0346cf5dd1f3b996552') in 0.014622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.086434 seconds.
+  path: Assets/Sprites/Items/Armas/Baston.png
+  artifactKey: Guid(2b3eaf1bfe6a6d045aa7b898f1ff1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Armas/Baston.png using Guid(2b3eaf1bfe6a6d045aa7b898f1ff1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd780e13aed8b4be6f707ba42e520d34b') in 0.015307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Items/Armas/Vara.png
+  artifactKey: Guid(9a0c43cd06ef92e46aa89f0fdd0a8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Armas/Vara.png using Guid(9a0c43cd06ef92e46aa89f0fdd0a8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc52139e4a8b48e8788dc675babebc4') in 0.018288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Items/Armas/Tridente.png
+  artifactKey: Guid(86741f2cd92a3384fb0b6fc9585eaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Armas/Tridente.png using Guid(86741f2cd92a3384fb0b6fc9585eaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdbd7b84a1e73c2a03f21bf0ed89fb3') in 0.017945 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
