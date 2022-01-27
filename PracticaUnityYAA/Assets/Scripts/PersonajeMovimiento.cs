@@ -19,13 +19,13 @@ public class PersonajeMovimiento : MonoBehaviour
 
     private void Start()
     {
-        
+
     }
 
     private void Update()
     {
         _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        
+
         // X
         if (_input.x > 0.1f) //Si me muevo como siempre va ser mayor que 1
         {
@@ -39,7 +39,7 @@ public class PersonajeMovimiento : MonoBehaviour
         {
             _direccionMovimiento.x = 0f; //No se mueve
         }
-        
+
         // Y
         if (_input.y > 0.1f)
         {
