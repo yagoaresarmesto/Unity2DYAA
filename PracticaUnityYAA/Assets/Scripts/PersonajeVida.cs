@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class PersonajeVida : VidaBase //Que hereda de vidaBase
 {
+
+
+    public static Action EventoPersonajeDerrotado;
     public bool PuedeSerCurado => Salud < saludMax;
     private void Update()
     {
@@ -11,7 +14,7 @@ public class PersonajeVida : VidaBase //Que hereda de vidaBase
             RecibirDaño(10);
         }
 
-         if (Input.GetKeyDown(KeyCode.R)) //Para probar, si pulsamos la tecla T recibimos daño
+        if (Input.GetKeyDown(KeyCode.R)) //Para probar, si pulsamos la tecla T recibimos daño
         {
             RestaurarSalud(10);
         }
@@ -30,12 +33,14 @@ public class PersonajeVida : VidaBase //Que hereda de vidaBase
             ActualizarBarraVida(Salud, saludMax);
         }
     }
+    protected override void PersonajeDerrotado()
+    {
+        EventoPersonajeDerrotado?.Invoke(); //Si el evento del personaje no es nulo, se invoca
+    }
+
 
     protected override void ActualizarBarraVida(float vidaActual, float vidaMax)
     {
 
     }
-
-
-
 }
